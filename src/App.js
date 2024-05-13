@@ -34,6 +34,8 @@ function App() {
           <Route path="/Sobre_Nosotros" component={SobreNosotros} />
           <Route path="/contacto" component={Contacto} />
           <Route component={NotFoundPage} /> 
+          <Route component={NotFoundPage} /> /*Ruta para página no encontrada*/
+
         </Switch>
       </div>
     </Router>
