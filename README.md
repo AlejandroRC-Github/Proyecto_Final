@@ -1,11 +1,25 @@
 # Nombre del Proyecto
 
+AA 24H Noroeste.
+
 [![Estado del Proyecto](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow)](https://github.com/AlejandroRC-Github/Proyecto_Final)
 [![Fecha del Proyecto](https://img.shields.io/badge/Fecha-Proyecto%20Inicio%3A%20May%202022-blueviolet)](https://tu_proyecto.com)
 [![Licencia](https://img.shields.io/badge/Licencia-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Descripción
-Desarrollo de una página web con 
+Este proyecto tiene como objetivo proporcionar un recurso para aquellos que luchan contra el alcoholismo y buscan apoyo en su camino hacia la sobriedad.
+
+Características principales:
+
+Información Detallada: Ofrecemos información detallada sobre nuestro progrma de Alcohólicos Anónimos, sus principios, programas de recuperación y recursos disponibles.
+
+Recursos de Autoayuda: Presentamos recursos útiles, incluyendo charlas, eventos y concienciacion sobre el alcoholismo.
+
+Comunidad de Apoyo: Facilitamos un espacio donde los miembros puedan compartir sus experiencias, historias de éxito y brindar apoyo mutuo. Espacio libre de discriminaciones y favorecemos un ambiente acogedor.
+
+Historias Inspiradoras: Compartimos testimonios y historias personales, proporcionando esperanza, motivación y empatía a quienes están en proceso de recuperación.
+
+Este proyecto tiene como objetivo informar y dar a conocer un entorno seguro, acogedor y lleno de recursos para ayudar a las personas a superar el alcoholismo y encontrar la esperanza en su viaje hacia una vida sobria y plena.
 
 ## Capturas de Pantalla
 
@@ -17,11 +31,13 @@ Próximamente..
 
 [![JavaScript Badge](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
+[![Express.js Badge](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)](https://expressjs.com/)
+
+[![Node.js Badge](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+
 [![MySQL Badge](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 
 [![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
-
-[![CSS Badge](https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS)
 
 - ...
 
