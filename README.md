@@ -1,6 +1,5 @@
-# Nombre del Proyecto
+# AA 24H Noroeste.
 
-AA 24H Noroeste.
 
 [![Estado del Proyecto](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow)](https://github.com/AlejandroRC-Github/Proyecto_Final)
 [![Fecha del Proyecto](https://img.shields.io/badge/Fecha-Proyecto%20Inicio%3A%20May%202022-blueviolet)](https://tu_proyecto.com)
