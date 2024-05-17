@@ -2,6 +2,7 @@ import Cabecera from '../Cabecera/Cabecera';
 import Footer from '../Footer/Footer';
 import { Outlet } from 'react-router-dom';
 import React from 'react';
+import Navbar from './Navbar/Navbar';
 
 function Comun() {
 
@@ -10,7 +11,8 @@ function Comun() {
      
    
       <Cabecera/>
-   
+
+      <Navbar/>
         <Outlet />
    
       <Footer/>

@@ -11,11 +11,10 @@ app.listen(PORT, () => {
 const mysql = require('mysql');
 
 const db = mysql.createConnection({
-  host: 'localhost', // Dirección del servidor MySQL
-  user: 'usuario', // Usuario de la base de datos
-  password: 'contraseña', // Contraseña de la base de datos
-  database: 'AA_database.sql' // Nombre de la base de datos
-});
+  host: 'localhost',
+  user: 'usuario',
+  password: 'contraseña',
+  database: 'AA_database.sql'
 
 db.connect((err) => {
     if (err) {

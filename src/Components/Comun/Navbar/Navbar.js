@@ -1,15 +1,15 @@
 import React from 'react';
-import './Navbar.css'; 
+import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => (
   <div className="imagen">
     <ul>
       <li><a className="activo" href="">Inicio</a></li>
-      <li><a href="">Sobre nosotros</a></li>
-      <li><a href="">Servicios</a></li>
-      <li><a href="">Encuentranos</a></li>
-      <li><a href="">Familias</a></li>
-      <li><a href="">¿Soy Alcoholico?</a></li>
+      <li><Link to ={"/Sobre_nosotros"}>Sobre nosotros</Link></li>
+      <li><Link to ={"/Servicios"}>Servicios</Link></li>
+      <li><Link to ={"/Contacto"}>Encuentranos</Link></li>
+      <li><Link to ={"/Autodiagnostico"}>¿Soy Alcoholico?</Link></li>
     </ul>
     <div className="barraHorizontal">
       <h4>g</h4>
