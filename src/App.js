@@ -4,8 +4,8 @@ import './App.css';
 
 import Home from './Components/Home';
 import Sobre_nosotros from './Components/Sobre_nosotros';
-import Contacto from './Components/Contacto';
-import NotFound from './components/NotFound';
+import Contacto from './Components/contacto/Contacto';
+import NotFound from './Components/NotFound/NotFound';
 import Servicios from './Components/servicios/Servicios';
 import Autodiagnostico from './Components/Autodiagnostico/Autodiagnostico';
 

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Cabecera() {
   return (
     <header>
-        <nav className="enlaces">
+        <nav className="Cabecera">
         <ul>
         <li><Link to="/"></Link></li>
           <li><Link to="/">Home</Link></li>
