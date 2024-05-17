@@ -1,40 +1,30 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
 
-import home from '../Páginas/home';
-import sobre_nosotros from '../Páginas/SobreNosotros';
-import contacto from '../Páginas/contacto';
-import servicios from '../Páginas/contacto';
-import autodiagnostico from '..Páginas/autodiagnostico';
-import NotFoundPage from './Páginas/NotFoundPage';
+import Home from './Components/Home';
+import Sobre_nosotros from './Components/Sobre_nosotros';
+import Contacto from './Components/contacto/Contacto';
+import NotFound from './Components/NotFound/NotFound';
+import Servicios from './Components/servicios/Servicios';
+import Autodiagnostico from './Components/Autodiagnostico/Autodiagnostico';
+
 
 function App() {
   return (
     <Router>
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+
         </header>
 
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/Sobre_Nosotros" component={SobreNosotros} />
-          <Route path="/contacto" component={Contacto} />
-          <Route component={NotFoundPage} /> 
-          <Route component={NotFoundPage} /> /*Ruta para página no encontrada*/
+          <Route path="/Sobre_Nosotros" component={Sobre_nosotros} />
+          <Route path="/Contacto" component={Contacto} />
+          <Route path="/Servicios" component={Servicios}/>
+          <Route path="/Autodiagnostico" component={Autodiagnostico}/>
+          <Route component={NotFound} />
 
         </Switch>
       </div>
