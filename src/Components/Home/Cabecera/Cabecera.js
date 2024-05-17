@@ -4,7 +4,7 @@ import './Cabecera.css';
 const Cabecera = () => (
   <header>
     <div className="cabecera">
-      <img src="../imagenes/Logo.png.jpeg" alt="Logo" />
+      <img src="../imagenes/Logo" alt="Logo" />
       <div className="BarraVertical"></div>
       <div className="Nombre">
         <h1>
@@ -18,9 +18,9 @@ const Cabecera = () => (
         </p>
       </div>
       <div className="ImagenesTopRight">
-        <img src="../Imagenes/concellocoruna.png" alt="AyuntamientoCoruña" />
-        <img src="../Imagenes/MinisterioDelInterior.png" alt="GobiernoEspaña" />
-        <img src="../Imagenes/UnionEuropea.png" alt="UnionEuropea" />
+        <img src="" alt="AyuntamientoCoruña" />
+        <img src="" alt="GobiernoEspaña" />
+        <img src="" alt="UnionEuropea" />
       </div>
     </div>
   </header>

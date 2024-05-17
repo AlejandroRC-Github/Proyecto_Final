@@ -4,12 +4,12 @@ import './Navbar.css';
 const Navbar = () => (
   <div className="imagen">
     <ul>
-      <li><a className="activo" href="../HTMLS/HTML_De_PaginaPrincipal.html">Inicio</a></li>
-      <li><a href="../HTMLS/HTML_SobreNosotros.html">Sobre nosotros</a></li>
-      <li><a href="../HTMLS/HTML_Servicios.html">Servicios</a></li>
-      <li><a href="../HTMLS/HTML_Encuentranos.html">Encuentranos</a></li>
-      <li><a href="../HTMLS/HTML_Familias.html">Familias</a></li>
-      <li><a href="./HTML_SoyAlcoholico.html">¿Soy Alcoholico?</a></li>
+      <li><a className="activo" href="">Inicio</a></li>
+      <li><a href="">Sobre nosotros</a></li>
+      <li><a href="">Servicios</a></li>
+      <li><a href="">Encuentranos</a></li>
+      <li><a href="">Familias</a></li>
+      <li><a href="">¿Soy Alcoholico?</a></li>
     </ul>
     <div className="barraHorizontal">
       <h4>g</h4>
