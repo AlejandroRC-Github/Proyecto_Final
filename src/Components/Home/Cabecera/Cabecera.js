@@ -4,7 +4,7 @@ import './Cabecera.css';
 const Cabecera = () => (
   <header>
     <div className="cabecera">
-      <img src="../imagenes/Logo" alt="Logo" />
+      <img src="" alt="Logo" />
       <div className="BarraVertical"></div>
       <div className="Nombre">
         <h1>

@@ -1,6 +1,6 @@
 import React from 'react';
-import './Navbar.css';
 import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 const Navbar = () => (
   <div className="imagen">
@@ -8,7 +8,7 @@ const Navbar = () => (
       <li><a className="activo" href="">Inicio</a></li>
       <li><Link to ={"/Sobre_nosotros"}>Sobre nosotros</Link></li>
       <li><Link to ={"/Servicios"}>Servicios</Link></li>
-      <li><Link to ={"/Contacto"}>Encuentranos</Link></li>
+      <li><Link to ={"/Contacto"}>Contacto</Link></li>
       <li><Link to ={"/Autodiagnostico"}>¿Soy Alcoholico?</Link></li>
     </ul>
     <div className="barraHorizontal">
@@ -29,3 +29,4 @@ const Navbar = () => (
 );
 
 export default Navbar;
+

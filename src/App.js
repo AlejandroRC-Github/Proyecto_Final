@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from './Pages/Home/Home';
-import Sobre_nosotros from './Components/Sobre_nosotros/Sobre_nosotros';
+import Sobre_nosotros from './Pages/Sobre_nosotros/Sobre_nosotros';
 import Contacto from './Components/Contacto/Contacto';
 import Servicios from './Components/Servicios/Servicios';
 import Autodiagnostico from './Components/Autodiagnostico/Autodiagnostico';
