@@ -5,7 +5,7 @@ import './Navbar.css';
 const Navbar = () => (
   <div className="imagen">
     <ul>
-      <li><a className="activo" href="">Inicio</a></li>
+      <li><Link to ={"/"}>Inicio</Link></li>
       <li><Link to ={"/Sobre_nosotros"}>Sobre nosotros</Link></li>
       <li><Link to ={"/Servicios"}>Servicios</Link></li>
       <li><Link to ={"/Contacto"}>Contacto</Link></li>
