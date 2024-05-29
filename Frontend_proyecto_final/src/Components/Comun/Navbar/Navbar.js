@@ -1,32 +1,31 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+import { Link, useLocation } from 'react-router-dom';
+import './Navbar.css'; 
 
-const Navbar = () => (
-  <div className="imagen">
-    <ul>
-      <li><Link to ={"/"}>Inicio</Link></li>
-      <li><Link to ={"/Sobre_nosotros"}>Sobre nosotros</Link></li>
-      <li><Link to ={"/Servicios"}>Servicios</Link></li>
-      <li><Link to ={"/Contacto"}>Contacto</Link></li>
-      <li><Link to ={"/Autodiagnostico"}>¿Soy Alcoholico?</Link></li>
-    </ul>
-    <div className="barraHorizontal">
-      <h4>g</h4>
-    </div>
-    <div className="contactanos">
-      <h4>
-        SI TU FORMA DE BEBER TE HA LLEVADO A VIVIR SITUACIONES <br />
-        COMPLICADAS. QUIZÁ SEA EL MOMENTO EN EL QUE TE PODAMOS <br />
-        AYUDAR.
-      </h4>
-      <a href="#CONTACTANOS">CONTÁCTANOS</a>
-    </div>
-    <div className="barraHorizontal2">
-      <h3>f</h3>
-    </div>
-  </div>
-);
+const Navbar = () => {
+  const location = useLocation();
+
+  return (
+    <nav className="navbar">
+      <ul className="flex justify-center">
+        <li className={location.pathname === '/' ? 'active' : ''}>
+          <Link to="/" className="nav-link">Inicio</Link>
+        </li>
+        <li className={location.pathname === '/Sobre_nosotros' ? 'active' : ''}>
+          <Link to="/Sobre_nosotros" className="nav-link">Sobre nosotros</Link>
+        </li>
+        <li className={location.pathname === '/Servicios' ? 'active' : ''}>
+          <Link to="/Servicios" className="nav-link">Servicios</Link>
+        </li>
+        <li className={location.pathname === '/Contacto' ? 'active' : ''}>
+          <Link to="/Contacto" className="nav-link">Contacto</Link>
+        </li>
+        <li className={location.pathname === '/Autodiagnostico' ? 'active' : ''}>
+          <Link to="/Autodiagnostico" className="nav-link">¿Soy Alcoholico?</Link>
+        </li>
+      </ul>
+    </nav>
+  );
+};
 
 export default Navbar;
-

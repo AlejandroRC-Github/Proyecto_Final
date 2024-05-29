@@ -1,0 +1,39 @@
+/* Cabecera.css */
+
+header {
+    background-color: #1a202c;
+    color: #ffffff;
+    padding: 16px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container img {
+    max-height: 50px;
+  }
+  
+  .BarraVertical {
+    width: 1px;
+    background-color: #ffffff;
+    height: 32px;
+  }
+  
+  .Nombre h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .Nombre p {
+    font-size: 0.875rem;
+  }
+  
+  .ImagenesTopRight img {
+    max-height: 40px;
+    margin-left: 8px;
+  }
+  

@@ -1,0 +1,126 @@
+/* Contacto.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-blue-900 {
+    color: #2a4365;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+h4 {
+    font-size: 1.25rem;
+    color: #777;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-auto {
+    height: auto;
+}
+
+.ml-4 {
+    margin-left: 16px;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+}
+
+.iframe-container iframe {
+    width: 100%;
+    max-width: 900px;
+    height: 400px;
+    border: none;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.location-info, .meeting-info, .location-description {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.location-address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-image, .services-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.services-description, .location-detail {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-map {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}

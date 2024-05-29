@@ -1,0 +1,32 @@
+/* Home.css */
+
+.reseñas {
+    background-color: #f7fafc; 
+    padding: 40px; 
+    margin: 20px auto; 
+    max-width: 800px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .reseñas h2 {
+    margin-bottom: 20px; 
+  }
+  
+  .reseñas ul {
+    list-style-type: none; 
+    padding: 0; 
+  }
+  
+  .reseñas li {
+    margin-bottom: 20px; 
+    padding: 20px; 
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .reseñas p {
+    margin-bottom: 10px; 
+  }
+  

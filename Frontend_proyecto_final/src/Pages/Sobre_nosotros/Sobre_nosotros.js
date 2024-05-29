@@ -1,25 +1,15 @@
 import React from 'react';
-import Cabecera from '../../Components/Home/Cabecera/Cabecera'; 
+import Cabecera from '../../Components/Home/Cabecera/Cabecera';
 import Footer from '../../Components/Home/Footer/Footer';
 import Navbar from '../../Components/Comun/Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import './Sobre_nosotros.css';
 
 const SobreNosotros = () => {
   return (
     <div>
       <Cabecera />
       <Navbar />
-      
-      <div className="bg-blue-900 text-white">
-        <img src="../Imagenes/FondoImagenPrincipal.jpeg" alt="ImagenFondo" className="foto" />
-        <ul className="flex justify-center">
-          <li><a className="px-4 py-2 hover:bg-blue-800" href="">Inicio</a></li>
-          <li><Link to ={"/Sobre_nosotros"} className="px-4 py-2 hover:bg-blue-800">Sobre nosotros</Link></li>
-          <li><Link to ={"/Servicios"} className="px-4 py-2 hover:bg-blue-800">Servicios</Link></li>
-          <li><Link to ={"/Contacto"} className="px-4 py-2 hover:bg-blue-800">Contacto</Link></li>
-          <li><Link to ={"/Autodiagnostico"} className="px-4 py-2 hover:bg-blue-800">¿Soy Alcoholico?</Link></li>
-        </ul>
-      </div>
 
       <div className="bg-white py-8">
         <h1 className="text-4xl font-bold text-blue-900 text-center mb-8">SOBRE NOSOTROS</h1>
