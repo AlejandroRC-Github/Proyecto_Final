@@ -2,6 +2,7 @@ import React from 'react';
 import Cabecera from '../../Components/Home/Cabecera/Cabecera';
 import Footer from '../../Components/Home/Footer/Footer';
 import Navbar from '../../Components/Comun/Navbar/Navbar';
+import './servicios.css';
 
 const Servicios = () => {
   return (
@@ -10,23 +11,21 @@ const Servicios = () => {
       <Navbar />
 
       <div className="bg-blue-900 text-white">
-        <div className="NuestrosServicios">
-          <h1>Nuestros Servicios</h1>
+        <div className="NuestrosServicios text-center py-8">
+          <h1 className="text-4xl font-bold">Nuestros Servicios</h1>
         </div>
       </div>
 
       <div className="bg-white py-8">
-        <hr />
-
         <div className="mx-auto max-w-4xl px-4">
           <div className="uno mb-8">
             <h2 className="text-xl font-semibold text-blue-900">El único fin de esta asociación es ayudar a personas con problemas de alcoholismo.</h2>
             <div className="flex justify-between mt-4">
               <div className="boton1">
-                <a href="Telefono" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Teléfono</a>
+                <a href="tel:881309391" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Teléfono</a>
               </div>
               <div className="boton2">
-                <a href="Correo Electronico" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Correo Electrónico</a>
+                <a href="mailto:noroeste@aa24horas.es" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Correo Electrónico</a>
               </div>
             </div>
           </div>

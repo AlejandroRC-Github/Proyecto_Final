@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import Cabecera from '../../Components/Home/Cabecera/Cabecera';
+import Footer from '../../Components/Home/Footer/Footer';
+import Navbar from '../../Components/Comun/Navbar/Navbar';
+import './Autodiagnostico.css';
 
 const Autodiagnostico = () => {
   const [paginaActual, setPaginaActual] = useState(1);
@@ -70,38 +74,44 @@ const Autodiagnostico = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-4">
-      <h2 className="text-3xl font-bold mb-4">Autodiagnóstico de Alcoholismo</h2>
-      <div className="mb-4">
-        <label htmlFor={`pregunta${paginaActual}`} className="block font-semibold">{paginaActual}. {preguntas[paginaActual - 1]}</label>
-        <select
-          id={`pregunta${paginaActual}`}
-          value={respuestas[paginaActual - 1]}
-          onChange={(e) => handleRespuestaChange(paginaActual - 1, e.target.value)}
-          className="block w-full mt-1 p-2 border border-gray-300 rounded-md"
-        >
-          <option value="" disabled>Selecciona una opción</option>
-          <option value="si">Sí</option>
-          <option value="no">No</option>
-        </select>
-      </div>
-      <div className="flex justify-between">
-        {paginaActual > 1 && (
-          <button 
-            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded" 
-            onClick={mostrarPreguntaAnterior}
+    <div>
+      <Cabecera />
+      <Navbar />
+      <div>
+        <h2>Autodiagnóstico de Alcoholismo</h2>
+        <p >
+          Este formulario te ayudará a identificar si podrías tener problemas con el alcohol. Responde honestamente a cada pregunta y al final obtendrás un mensaje con una evaluación basada en tus respuestas.
+        </p>
+        <div>
+          <label htmlFor={`pregunta${paginaActual}`}>{paginaActual}. {preguntas[paginaActual - 1]}</label>
+          <select
+            id={`pregunta${paginaActual}`}
+            value={respuestas[paginaActual - 1]}
+            onChange={(e) => handleRespuestaChange(paginaActual - 1, e.target.value)}
           >
-            Volver
+            <option value="" disabled>Selecciona una opción</option>
+            <option value="si">Sí</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+        <div>
+          {paginaActual > 1 && (
+            <button 
+              className="" 
+              onClick={mostrarPreguntaAnterior}
+            >
+              Volver
+            </button>
+          )}
+          <button
+            onClick={mostrarSiguientePregunta}
+          >
+            {paginaActual < preguntas.length ? 'Siguiente' : 'Enviar'}
           </button>
-        )}
-        <button 
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" 
-          onClick={mostrarSiguientePregunta}
-        >
-          {paginaActual < preguntas.length ? 'Siguiente' : 'Enviar'}
-        </button>
+        </div>
+        {mensaje && <div>{mensaje}</div>}
       </div>
-      {mensaje && <div className="mt-4">{mensaje}</div>}
+      <Footer />
     </div>
   );
 };
