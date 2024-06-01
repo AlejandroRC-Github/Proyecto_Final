@@ -1,14 +1,12 @@
 import React from 'react';
 import Cabecera from '../../Components/Home/Cabecera/Cabecera';
 import Footer from '../../Components/Home/Footer/Footer';
-import Navbar from '../../Components/Comun/Navbar/Navbar';
 import './servicios.css';
 
 const Servicios = () => {
   return (
     <div>
       <Cabecera />
-      <Navbar />
 
       <div className="bg-blue-900 text-white">
         <div className="NuestrosServicios text-center py-8">

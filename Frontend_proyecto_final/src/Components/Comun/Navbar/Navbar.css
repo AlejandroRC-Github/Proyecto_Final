@@ -1,15 +1,15 @@
 /* Navbar.css */
 
 .navbar {
-  background-color: #1a202c;
-  padding: 20px 0;
+  background-color: #F7FAFC;
+  padding: 0;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
 li {
@@ -17,22 +17,22 @@ li {
 }
 
 .nav-link {
-  color: #ffffff;
+  color: #000;
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 600;
   padding: 10px 20px;
   border-radius: 4px;
-  transition: background-color 0.3s ease;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
 .nav-link:hover {
-  background-color: #2d3748;
+  color: #6089cf;
 }
 
 .nav-link.active {
-  background-color: #4a5568; 
-  transition: background-color 0.3s ease;
+  color: #6089cf;
+  border-bottom: 2px solid #6089cf;
 }
 
 .barraHorizontal,
@@ -49,20 +49,20 @@ li {
 }
 
 .contactanos h4 {
-  font-size: 1rem; 
+  font-size: 1rem;
   margin-bottom: 8px;
 }
 
 .contactanos a {
   display: inline-block;
-  background-color: #e53e3e; 
-  color: #ffffff; 
+  background-color: #e53e3e;
+  color: #ffffff;
   padding: 8px 16px;
   text-decoration: none;
   border-radius: 4px;
-  transition: background-color 0.3s ease; 
+  transition: background-color 0.3s ease;
 }
 
 .contactanos a:hover {
-  background-color: #c53030; 
+  background-color: #c53030;
 }
