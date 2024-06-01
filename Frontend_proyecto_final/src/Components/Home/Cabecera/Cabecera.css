@@ -1,39 +1,49 @@
 /* Cabecera.css */
 
 header {
-    background-color: #1a202c;
-    color: #ffffff;
-    padding: 16px 0;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .container img {
-    max-height: 50px;
-  }
-  
-  .BarraVertical {
-    width: 1px;
-    background-color: #ffffff;
-    height: 32px;
-  }
-  
-  .Nombre h1 {
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin: 0;
-  }
-  
-  .Nombre p {
-    font-size: 0.875rem;
-  }
-  
-  .ImagenesTopRight img {
-    max-height: 40px;
-    margin-left: 8px;
-  }
-  
+  background-color: #F7FAFC;
+  color: #333;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px; /* Más espacio alrededor */
+}
+
+.logo-nombre-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.Nombre {
+  text-align: left;
+}
+
+.Nombre h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: #333;
+}
+
+.barra-vertical {
+  width: 1px;
+  height: 80px;
+  background-color: #ccc;
+  margin: 0 40px; /* Espacio entre el nombre y el menú */
+}
+
+.ImagenesTopRight {
+  display: flex;
+  align-items: center;
+}
