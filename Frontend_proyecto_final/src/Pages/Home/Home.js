@@ -17,7 +17,6 @@ const Home = () => {
   return (
     <div>
       <Cabecera />
-      <Navbar />
       <div className="extra-section">
         <div className="barraHorizontal">
           <h4></h4>

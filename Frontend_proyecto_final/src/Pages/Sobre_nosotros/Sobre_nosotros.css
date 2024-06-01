@@ -1,85 +1,72 @@
-/* SobreNosotros.css */
+/* Sobre_nosotros.css */
 
-.bg-blue-900 {
-  background-color: #2a4365;
-}
-
-.text-blue-900 {
-  color: #2a4365;
-}
-
-.text-white {
-  color: #ffffff;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.flex {
-  display: flex;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
-.w-64 {
-  width: 16rem;
-}
-
-.h-64 {
-  height: 16rem;
-}
-
-.object-cover {
-  object-fit: cover;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.foto {
+.sobre-nosotros-container {
   width: 100%;
-  height: auto;
-  max-height: 300px;
-  object-fit: cover;
+  margin: 0 auto;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+.header-background {
+  background-image: url('https://aa24horas.es/wp-content/uploads/2024/05/portrait-young-business-man-sitting-his-desk-scaled-1.webp'); /* Ruta a tu imagen de fondo */
+  background-size: 100%;
+  background-position: center;
+  text-align: center;
+  padding: 80px 0;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.titulo {
+  color: #000;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.texto-container {
+  margin-bottom: 40px;
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contenido-container {
+  align-items: center;
+  width: 100%;
+}
+
+.accordion {
+  width: 100%;
+  margin-top: 40px;
+  background-color: #F7FAFC;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.accordion-item {
+  margin-bottom: 20px;
+}
+
+.accordion-title {
+  color: #333;
+  padding: 20px;
+  cursor: pointer;
   display: flex;
-  justify-content: center;
-  background-color: #2a4365;
+  justify-content: space-between;
+  align-items: center;
+  
 }
 
-li {
-  margin: 0 8px;
+.accordion-content {
+  padding: 20px;
 }
 
-a {
-  color: #ffffff;
-  text-decoration: none;
-  padding: 12px 16px;
+.accordion-title h2 {
+  font-size: 1.2rem;
+  border-bottom: 2px;
 }
 
-a:hover {
-  background-color: #1e3a5f;
+.accordion-content p {
+  font-size: 1rem;
 }

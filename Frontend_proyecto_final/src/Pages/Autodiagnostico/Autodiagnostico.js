@@ -9,7 +9,6 @@ const AutodiagnosticoPage = () => {
   return (
     <div className="autodiagnostico-page">
       <Cabecera />
-      <Navbar />
       <main>
         <Autodiagnostico />
       </main>

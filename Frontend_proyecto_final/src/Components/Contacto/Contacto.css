@@ -1,126 +1,113 @@
 /* Contacto.css */
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 16px;
-}
-
-.text-center {
+.contacto-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .contacto-container {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  .contact-header {
+    background-image: url('https://aa24horas.es/wp-content/uploads/2024/05/writing-e-mails-1-scaled-1.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
     text-align: center;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-blue-900 {
-    color: #2a4365;
-}
-
-.font-bold {
-    font-weight: 700;
-}
-
-h1 {
+    color: white;
+  }
+  
+  .contact-header h2 {
     font-size: 2rem;
-    color: #333;
-}
-
-h3 {
+    margin: 0;
+  }
+  
+  .contacto-content {
+    padding: 20px 0;
+  }
+  
+  .intro-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contacto-columns {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-form, .contact-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .contact-form {
+    max-width: 50%;
+  }
+  
+  .contact-form h2 {
     font-size: 1.5rem;
-    color: #555;
-}
-
-h4 {
-    font-size: 1.25rem;
-    color: #777;
-}
-
-hr {
+    margin-bottom: 10px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-top: 10px;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
     border: none;
-    border-top: 1px solid #ccc;
-    margin-top: 32px;
-    margin-bottom: 32px;
-}
-
-.flex {
-    display: flex;
-}
-
-.flex-col {
-    flex-direction: column;
-}
-
-.items-center {
-    align-items: center;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.w-full {
-    width: 100%;
-}
-
-.h-auto {
-    height: auto;
-}
-
-.ml-4 {
-    margin-left: 16px;
-}
-
-.iframe-container {
-    display: flex;
-    justify-content: center;
-}
-
-.iframe-container iframe {
-    width: 100%;
-    max-width: 900px;
-    height: 400px;
-    border: none;
-}
-
-.contact-container {
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .contact-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 16px;
-}
-
-.location-info, .meeting-info, .location-description {
-    width: 100%;
-    max-width: 800px;
-    text-align: center;
-    margin-bottom: 32px;
-}
-
-.location-address {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.location-image, .services-image {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 32px;
-}
-
-.services-description, .location-detail {
-    text-align: left;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.contact-map {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 32px;
-}
+    justify-content: space-around;
+    max-width: 40%;
+  }
+  
+  .info-item {
+    margin-bottom: 20px;
+  }
+  
+  .info-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .info-item a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .info-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .info-item p {
+    margin: 0;
+  }
+  
