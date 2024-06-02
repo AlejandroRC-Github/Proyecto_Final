@@ -5,64 +5,49 @@ import './servicios.css';
 
 const Servicios = () => {
   return (
-    <div>
+    <div className="servicios-page">
       <Cabecera />
 
-      <div className="bg-blue-900 text-white">
-        <div className="NuestrosServicios text-center py-8">
-          <h1 className="text-4xl font-bold">Nuestros Servicios</h1>
+      <div className="servicios-container">
+        <div className="header-background-servicios">
+          <h2 className="header-title">Servicios: apoyo para la recuperación</h2>
         </div>
-      </div>
 
-      <div className="bg-white py-8">
-        <div className="mx-auto max-w-4xl px-4">
-          <div className="uno mb-8">
-            <h2 className="text-xl font-semibold text-blue-900">El único fin de esta asociación es ayudar a personas con problemas de alcoholismo.</h2>
-            <div className="flex justify-between mt-4">
-              <div className="boton1">
-                <a href="tel:881309391" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Teléfono</a>
-              </div>
-              <div className="boton2">
-                <a href="mailto:noroeste@aa24horas.es" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Correo Electrónico</a>
-              </div>
+        <p className="intro-text">
+          Grupo 24 Horas Alcohólicos Anónimos Noroeste es una asociación sin ánimo de lucro fundada en junio de 2017, con CIF: G-70530688, e inscrita en el Registro Nacional de Asociaciones. Como entidad de referencia en el consejo asesor de Galicia y del Sergas, operamos en las áreas de A Coruña – Cee y Santiago de Compostela – Barbanza. Desde 2022, somos reconocidos de interés público, reflejando nuestro compromiso y dedicación en el ámbito internacional.<br/><br/>
+          Nuestros servicios son completamente gratuitos, firmemente creyendo que el nivel adquisitivo no debe ser una barrera para tratar un problema de salud tan serio como el alcoholismo. Aunque nuestra actuación es principalmente municipal y autonómica, nuestra denominación internacional subraya nuestro alcance y compromiso global.<br/><br/>
+          En A Coruña, ofrecemos asistencia las 24 horas para aquellos que enfrentan problemas de alcoholismo, ya sea que deseen dejar de beber o necesiten apoyo para evitar recaídas en momentos difíciles. Nuestro único propósito es proporcionar ayuda efectiva durante el proceso de desintoxicación y ofrecer un apoyo continuo para prevenir recaídas, guiados por valores de servicio al cliente, rigor profesional y una constante apuesta por la innovación y el talento.<br/><br/>
+          Grupo 24 Horas Alcohólicos Anónimos Noroeste es más que una asociación; es un refugio seguro para aquellos que buscan un camino hacia la recuperación y una vida libre del alcohol.
+        </p>
+
+        <div className="columns">
+          <div className="zoom-container">
+            <div className="zoom-background" style={{ backgroundImage: "url('../Imagenes/servicio1.jpg')" }}></div>
+            <div className="zoom-text">
+              <h3>Servicio 1</h3>
+              <p>Descripción del servicio 1</p>
             </div>
           </div>
-
-          <hr />
-
-          <div className="dos flex flex-col md:flex-row justify-between items-center mb-8">
-            <h3 className="md:w-1/2 text-lg font-semibold text-blue-900">
-              La situación económica para dejar de
-              <br />
-              beber no puede ser un problema, por eso
-              <br />
-              nuestros servicios son gratuitos.
-            </h3>
-            <img src="../Imagenes/servicios.png" alt="Servicios Gratuitos" className="md:w-1/2 mt-4 md:mt-0" />
+          <div className="zoom-container">
+            <div className="zoom-background" style={{ backgroundImage: "url('../Imagenes/servicio2.jpg')" }}></div>
+            <div className="zoom-text">
+              <h3>Servicio 2</h3>
+              <p>Descripción del servicio 2</p>
+            </div>
           </div>
-
-          <hr />
-
-          <div className="tres flex flex-col md:flex-row justify-between items-center mb-8">
-            <img src="../Imagenes/acogida.png" alt="Acogida gratuita" className="md:w-1/2 mb-4 md:mb-0" />
-            <h3 className="md:w-1/2 text-lg font-semibold text-blue-900">
-              Posibilidad de residir en nuestras
-              <br />
-              instalaciones, para personas no
-              <br />
-              residentes de la ciudad de A Coruña
-              <br />
-              o para personas sin recursos.
-            </h3>
+          <div className="zoom-container">
+            <div className="zoom-background" style={{ backgroundImage: "url('../Imagenes/servicio3.jpg')" }}></div>
+            <div className="zoom-text">
+              <h3>Servicio 3</h3>
+              <p>Descripción del servicio 3</p>
+            </div>
           </div>
-
-          <hr />
-
-          <div className="cuatro flex flex-col md:flex-row justify-between items-center mb-8">
-            <h3 className="md:w-1/2 text-lg font-semibold text-blue-900">
-              Atención las 24h todos los días del año
-            </h3>
-            <img src="../Imagenes/horas.png" alt="24h" className="md:w-1/2" />
+          <div className="zoom-container">
+            <div className="zoom-background" style={{ backgroundImage: "url('../Imagenes/servicio4.jpg')" }}></div>
+            <div className="zoom-text">
+              <h3>Servicio 4</h3>
+              <p>Descripción del servicio 4</p>
+            </div>
           </div>
         </div>
       </div>
