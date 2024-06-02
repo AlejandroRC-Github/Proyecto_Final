@@ -15,7 +15,7 @@ const Contacto = () => (
       </p>
       <div className="contacto-columns">
         <div className="contact-form">
-          <h2>Formulario de Contacto</h2>
+          <h2>Formulario de Dudas</h2>
           <form>
             <label htmlFor="email">Correo Electrónico:</label>
             <input type="email" id="email" name="email" required />
