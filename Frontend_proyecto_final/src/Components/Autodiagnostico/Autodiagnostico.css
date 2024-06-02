@@ -21,13 +21,47 @@ p {
   margin: 10px 20px;
 }
 
-.autodiagnostico-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #ffffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.hero {
+  background-image: url('https://aa24horas.es/wp-content/uploads/2024/05/hands-unrecognizable-female-doctor-filling-form-clipboard-scaled-1.webp'); /* Reemplaza con la ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #F7FAFC;
   border-radius: 8px;
+}
+
+.info-section {
+  flex: 1;
+  padding-right: 40px;
+  border-right: 2px solid #e2e8f0;
+  text-align: center;
+}
+
+.form-section {
+  flex: 1;
+  padding-left: 40px;
+}
+
+.autodiagnostico-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .autodiagnostico-form {
@@ -42,7 +76,7 @@ p {
 }
 
 .autodiagnostico-form select {
-  width: 50%;
+  width: 60%;
   padding: 10px;
   font-size: 1rem;
   margin-bottom: 20px;
@@ -50,7 +84,13 @@ p {
   border: 1px solid #cbd5e0;
 }
 
-.autodiagnostico-form button {
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.prev-button, .next-button {
   background-color: #1a202c;
   color: #ffffff;
   border: none;
@@ -59,10 +99,9 @@ p {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin: 10px;
 }
 
-.autodiagnostico-form button:hover {
+.prev-button:hover, .next-button:hover {
   background-color: #2d3748;
 }
 
@@ -72,5 +111,3 @@ p {
   color: #e53e3e;
   text-align: center;
 }
-
-

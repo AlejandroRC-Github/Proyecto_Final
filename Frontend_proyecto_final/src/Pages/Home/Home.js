@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import Cabecera from '../../Components/Home/Cabecera/Cabecera';
 import Footer from '../../Components/Home/Footer/Footer';
-import Galeria from '../../Components/Home/Galeria/Galeria';
-import Navbar from '../../Components/Comun/Navbar/Navbar';
 import './Home.css'; 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -18,7 +16,7 @@ const Home = () => {
   // Obtener comentarios desde la API REST
   
   useEffect(() => {
-    fetch('http://localhost:4000/comentarios')
+    fetch('http://localhost:4001/comentarios')
       .then((response) => response.json())
       .then((data) => {
         // Filtrar y ajustar comentarios
@@ -38,7 +36,7 @@ const Home = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch('http://localhost:4000/comentarios', {
+    fetch('http://localhost:4001/comentarios', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

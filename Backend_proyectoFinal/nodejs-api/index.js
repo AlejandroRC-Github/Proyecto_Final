@@ -92,7 +92,7 @@ app.put("/comentarios/:id", (req, res) => {
 });
 
 
-// DELETE 
+// DELETE
 
 app.delete("/comentarios/:id", (req, res) => {
     const data = readData();
@@ -117,6 +117,6 @@ app.get("/", (req, res) => {
     res.send("Esto es una api rest para mi backend");
 });
 
-app.listen(4000, () => {
-    console.log('server listening on port 4000');
+app.listen(4001, () => {
+    console.log('server listening on port 4001');
 });

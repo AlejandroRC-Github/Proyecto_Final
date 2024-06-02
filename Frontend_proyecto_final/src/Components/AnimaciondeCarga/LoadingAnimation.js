@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './LoadingAnimation.css';
+import './LoadingScreen.css';
 
 const LoadingAnimation = () => {
   const [loading, setLoading] = useState(true);

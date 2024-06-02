@@ -1,8 +1,9 @@
 import React from 'react';
 import Home from './Pages/Home/Home';
 import Sobre_nosotros from './Pages/Sobre_nosotros/Sobre_nosotros';
-import Contacto from './Pages/Contacto/Contacto';
+import Contacto from './Components/Contacto/Contacto';
 import Servicios from './Components/Servicios/Servicios';
+import LoadingAnimation from './Components/AnimaciondeCarga/LoadingAnimation';
 import Autodiagnostico from './Components/Autodiagnostico/Autodiagnostico';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
