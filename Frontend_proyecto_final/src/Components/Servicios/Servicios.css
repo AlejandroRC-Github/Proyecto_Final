@@ -1,31 +1,78 @@
 /* Servicios.css */
 
-/* Ajustes para el contenedor padre */
-
-
-.servicios-container {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7fafc;
+    color: #2d3748;
+    margin: 0;
+    padding: 0;
   }
-
-  /* Estilo para el contenedor de las tarjetas */
+  
+  h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h3 {
+    color: #1a202c;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  p {
+    color: #2d3748;
+    font-size: 1rem;
+    text-align: justify;
+    margin: 10px 20px;
+  }
+  
+  .header-background-servicios {
+    background-image: url('https://aa24horas.es/wp-content/uploads/2024/05/businessman-handshaking-businesswoman-showing-respect-closeup-view-hands-shaking-scaled-1.webp'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .header-title {
+    text-align: center;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .intro-text {
+    margin-top: 20px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
   .card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 10%;
+    margin-top: 20px;
   }
   
-  /* Estilo para cada tarjeta */
   .zoom-container {
     position: relative;
     overflow: hidden;
-    width: 30px; /* Ancho de 30px */
-    height: 50px; /* Alto de 50px */
-    margin: 20px 0;
+    width: 48%; /* Ajusta según sea necesario */
+    margin: 10px 1%;
     border-radius: 8px;
-    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .zoom-container:before {
@@ -79,3 +126,4 @@
     transform: scale(1.05);
     color: black;
   }
+  
