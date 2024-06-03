@@ -6,6 +6,7 @@
 [![Licencia](https://img.shields.io/badge/Licencia-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Descripción
+
 Este proyecto tiene como objetivo proporcionar un recurso para aquellos que luchan contra el alcoholismo y buscan apoyo en su camino hacia la sobriedad.
 
 Características principales:
@@ -20,13 +21,13 @@ Historias Inspiradoras: Compartimos testimonios y historias personales, proporci
 
 Este proyecto tiene como objetivo informar y dar a conocer un entorno seguro, acogedor y lleno de recursos para ayudar a las personas a superar el alcoholismo y encontrar la esperanza en su viaje hacia una vida sobria y plena.
 
+## Descripción técnica
+
 ## Capturas de Pantalla
 
 Próximamente..
 
 ## Tecnologías Utilizadas
-
-[![Tailwind CSS Badge](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 [![JavaScript Badge](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
@@ -34,13 +35,11 @@ Próximamente..
 
 [![Node.js Badge](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 
-[![MySQL Badge](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-
 [![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
 
 - ...
 
-## Instalación
+## Instalación  y utilización
 1. Clona el repositorio: `git clone https://github.com/tu_usuario/tu_proyecto.git`
 2. ...
 
