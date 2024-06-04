@@ -41,6 +41,7 @@ body {
   
   .header-title {
     text-align: center;
+    background-color: transparent;
   }
   
   .content-container {

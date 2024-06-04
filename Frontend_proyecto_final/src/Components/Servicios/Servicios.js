@@ -26,33 +26,34 @@ const Servicios = () => {
         </p>
 
         <div className="card-container">
-          <Link to="/evaluacion-inicial" className="zoom-container">
+          <Link to="/servicios/ev-inicial" className="zoom-container">
             <div className="zoom-background" style={{ backgroundImage: "url('https://aa24horas.es/wp-content/uploads/2024/05/young-girl-talking-therapist-side-view.webp')" }}></div>
             <div className="zoom-text">
-              <h3>Evaluación Inicial</h3>
+              <h3>Evaluacion Inicial</h3>
               <p>Cada ingreso implica una evaluación colaborativa para determinar el nivel de dependencia del alcohol y crear un plan personalizado. Se priorizan prescripciones médicas existentes. Los residentes en riesgo de exclusión social reciben prioridad y un plan de desintoxicación seguro.</p>
             </div>
           </Link>
-          {/* Repite para las otras tarjetas */}
-          <Link to="/terapia-grupal" className="zoom-container">
+          <Link to="/servicios/concienciacion-problema" className="zoom-container">
+            <div className="zoom-background" style={{ backgroundImage: "url('https://aa24horas.es/wp-content/uploads/2024/05/people-meeting-seminar-office-concept-scaled-1.webp')" }}></div>
+            <div className="zoom-text">
+              <h3>Concienciacion del Problema</h3>
+              <p>Después de la desintoxicación, iniciamos una fase de concienciación con sesiones individuales y grupales, charlas y talleres. Nuestro objetivo es abordar las causas de la adicción y desarrollar estrategias para la recuperación y la prevención de recaídas.</p>
+            </div>
+          </Link>
+          <Link to="/servicios/desintoxicacion-segura" className="zoom-container">
             <div className="zoom-background" style={{ backgroundImage: "url('https://aa24horas.es/wp-content/uploads/2024/05/first-step-recovery-is-talking-about-problem-scaled-1.webp')" }}></div>
             <div className="zoom-text">
               <h3>Desintoxicación Segura</h3>
               <p>Aquellos que necesiten desintoxicación seguirán un proceso supervisado por servicios de salud, médicos de familia y unidades especializadas. Grupo Noroeste proporciona supervisión las 24 horas durante este proceso para garantizar la seguridad y el bienestar de los usuarios.</p>
             </div>
           </Link>
-          <Link to="/terapia-individual" className="zoom-container">
+          <Link to="/servicios/residencia-puntual" className="zoom-container">
             <div className="zoom-background" style={{ backgroundImage: "url('https://aa24horas.es/wp-content/uploads/2024/04/concrete-structure-city-scaled.jpg')" }}></div>
             <div className="zoom-text">
-              <h3>Concienciacion del Problema</h3>
-              <p>Después de la desintoxicación, iniciamos una fase de concienciación con sesiones individuales y grupales, charlas y talleres. Nuestro objetivo es abordar las causas de la adicción y desarrollar estrategias para la recuperación y la prevención de recaídas.</p>
-            </div>
-          </Link>
-          <Link to="/seguimiento" className="zoom-container">
-            <div className="zoom-background" style={{ backgroundImage: "url('https://aa24horas.es/wp-content/uploads/2024/05/people-meeting-community-center-scaled-1.webp')" }}></div>
-            <div className="zoom-text">
-              <h3>Seguimiento y Apoyo Continuo</h3>
-              <p>Nuestro programa de seguimiento ofrece apoyo constante para ayudar a nuestros miembros a mantener la sobriedad y a prevenir recaídas a largo plazo.</p>
+              <h3>
+                Residencia Puntual
+              </h3>
+              <p>Disponemos de una residencia para quienes no pueden desplazarse diariamente. Ofrecemos un entorno seguro y libre de alcohol, con apoyo las 24 horas y capacidad para 25 personas. Todos nuestros servicios son gratuitos y accesibles a quienes deseen dejar de beber.</p>
             </div>
           </Link>
         </div>
