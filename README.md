@@ -23,9 +23,31 @@ Este proyecto tiene como objetivo informar y dar a conocer un entorno seguro, ac
 
 ## Descripción técnica
 
-## Capturas de Pantalla
+## Capturas de Pantalla y carácteristicas de la aplicación
 
-Próximamente..
+Amimación de entrada a la página: Esta animación sirve como pantalla de carga antes de visualizar el home.
+
+imagen.
+
+Home: En el home podemos ver en la parte izquierda una cabecera con el logotipo y el nombre al lado y en la derecha un menú. Más tarde nos encontramos con una imagen de fondo que contiene un texto, el objetivo de la asociacion, sus servicios y finalmente el apartado de reseñas que dejan los usuarios al visita la pagina y un footer.
+
+imagen.
+
+Sobre nosotros: En Sobre nosotros podemos ver en la parte izquierda una cabecera con el logotipo y el nombre al lado y en la derecha un menú. Más tarde nos encontramos con un titulo descriptivo sobre el tema del que trata la página con un texto explicativo debajo. Finalmente un acordeon con informacion sobre la asociacion y un footer.
+
+imagen.
+
+Servicios:En Servicios podemos ver en la parte izquierda una cabecera con el logotipo y el nombre al lado y en la derecha un menú. Más tarde nos encontramos con un titulo descriptivo sobre el tema del que trata la página con un texto explicativo debajo. Mas tarde nos encontramos con una seccio que son los servicios, estos estan en formato tarjeta y contienen una animacion al hacer hover. Puedes clickar en ellos y te llevarán a otra página con una descripcion del servicio junto con una imagen que servirá de referencia visual y dará imagen al servicio. Finalmente un footer.
+
+imagen.
+
+Autodiagnóstico:En Autodiagnóstico podemos ver en la parte izquierda una cabecera con el logotipo y el nombre al lado y en la derecha un menú. Más tarde nos encontramos con un titulo descriptivo sobre el tema del que trata la página con un texto explicativo debajo. Luego tendremos un autodiagnostico el cual te obliga a responder 21 preguntas para saber si tienes algun problema con el alcohol, dependiendo de las respuestas se mostrará un mensaje personalizado. finalmente un footer.
+
+imagen
+
+Contacto:En Contacto podemos ver en la parte izquierda una cabecera con el logotipo y el nombre al lado y en la derecha un menú. Más tarde nos encontramos con un titulo descriptivo sobre el tema del que trata la página con un texto explicativo debajo. Luego nos encontramos con un formulario para consultar cualquier posible duda y a su lado los metodos de contacto de la asociacion. Finalmente un footer.
+
+imagen.
 
 ## Tecnologías Utilizadas
 
@@ -41,7 +63,15 @@ Próximamente..
 
 ## Instalación  y utilización
 1. Clona el repositorio: `git clone https://github.com/tu_usuario/tu_proyecto.git`
-2. ...
+2. Abre tu terminal buscando en el buscador de la barra de herramientas "cmd".
+3. Una vez dentro, posicionate en el directorio en el que has clonado el proyecto.
+4. Tendras que instalar las dependencias necesarias. ()
+5. Luego tendrás que iniciar el backend y posteriormente el frontend (te recomiendo abrir otra pestaña en la cmd).
+6. Para iniciar el backend: posicionate en backend-proyectoFinal y, dentro de este, posicionate en nodejs-api.
+7. Una vez dentro de nodejs-api, tendras que iniciar el backend con "npm run dev".
+8. Para iniciar el frontend: posicionate en frontend-proyectoFinal y, dentro de este, posicionate en src.
+9. Una vez dentro de src, tendras que iniciarlo con "npm run start"
+10. Una vez realizado todo esto, ya podrás disfrutar de la página web.
 
 ## Uso
 Instrucciones sobre cómo utilizar el proyecto proximamente...
