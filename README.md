@@ -1,9 +1,13 @@
-# AA 24H Noroeste.
+<h1 align="center">AA 24H Noroeste.</h1>
+<div>
+  <p align="center">
+    <img src="https://aa24horas.es/wp-content/uploads/2024/04/cropped-75060af3b70ef08d3aab8a0c9780b0fc-removebg-preview.webp" alt="Logo" width="200" height="auto">
+  </p>
+  
 
 
 [![Estado del Proyecto](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow)](https://github.com/AlejandroRC-Github/Proyecto_Final)
 [![Fecha del Proyecto](https://img.shields.io/badge/Fecha-Proyecto%20Inicio%3A%20May%202022-blueviolet)](https://tu_proyecto.com)
-[![Licencia](https://img.shields.io/badge/Licencia-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Índice
 
