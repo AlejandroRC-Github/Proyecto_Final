@@ -76,40 +76,54 @@ const Autodiagnostico = () => {
   return (
     <div>
       <Cabecera />
-      <Navbar />
-      <div>
-        <h2>Autodiagnóstico de Alcoholismo</h2>
-        <p >
-          Este formulario te ayudará a identificar si podrías tener problemas con el alcohol. Responde honestamente a cada pregunta y al final obtendrás un mensaje con una evaluación basada en tus respuestas.
-        </p>
-        <div>
-          <label htmlFor={`pregunta${paginaActual}`}>{paginaActual}. {preguntas[paginaActual - 1]}</label>
-          <select
-            id={`pregunta${paginaActual}`}
-            value={respuestas[paginaActual - 1]}
-            onChange={(e) => handleRespuestaChange(paginaActual - 1, e.target.value)}
-          >
-            <option value="" disabled>Selecciona una opción</option>
-            <option value="si">Sí</option>
-            <option value="no">No</option>
-          </select>
+      <div className="hero">
+        <div className="hero-text">
+          Autodiagnóstico: ¿Tienes problemas con el Alcohol?
         </div>
-        <div>
-          {paginaActual > 1 && (
-            <button 
-              className="" 
-              onClick={mostrarPreguntaAnterior}
-            >
-              Volver
-            </button>
-          )}
-          <button
-            onClick={mostrarSiguientePregunta}
-          >
-            {paginaActual < preguntas.length ? 'Siguiente' : 'Enviar'}
-          </button>
+      </div>
+      <div className="content-container">
+        <div className="info-section">
+          <h3>¿Cómo funciona este Autodiagnostico?</h3>
+          <p>
+            Este formulario ha sido creado para que una persona que tenga dudas acerca de si puede tener o no algún problema relacionado con el alcoholismo pueda saberlo rápidamente y así pueda acudir a nuestro centro lo antes posible.<br /><br />
+            Cabe tener en cuenta que toda la información a la hora de contestar el formulario no será guardada, es decir, es completamente anónimo.<br /><br />
+            Todas las preguntas que te encontrarás en el autodiagnóstico son síntomas relacionados con el alcoholismo y debes tomarte en serio la respuesta del mismo ya que puede ser un gran indicativo de que debes pedir ayuda, así que.<br /><br />
+            ¿Por qué no intentas responder con sinceridad para ti mismo el siguiente autodiagnóstico?
+          </p>
         </div>
-        {mensaje && <div>{mensaje}</div>}
+        <div className="form-section">
+          <div className="autodiagnostico-container">
+            <div className="autodiagnostico-form">
+              <label htmlFor={`pregunta${paginaActual}`}>{paginaActual}. {preguntas[paginaActual - 1]}</label>
+              <select
+                id={`pregunta${paginaActual}`}
+                value={respuestas[paginaActual - 1]}
+                onChange={(e) => handleRespuestaChange(paginaActual - 1, e.target.value)}
+              >
+                <option value="" disabled>Selecciona una opción</option>
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+            <div className="button-container">
+              {paginaActual > 1 && (
+                <button 
+                  className="prev-button" 
+                  onClick={mostrarPreguntaAnterior}
+                >
+                  Volver
+                </button>
+              )}
+              <button
+                className="next-button"
+                onClick={mostrarSiguientePregunta}
+              >
+                {paginaActual < preguntas.length ? 'Siguiente' : 'Enviar'}
+              </button>
+            </div>
+            {mensaje && <div className="mensaje">{mensaje}</div>}
+          </div>
+        </div>
       </div>
       <Footer />
     </div>

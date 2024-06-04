@@ -1,9 +1,11 @@
+import bodyParser from "body-parser"; //para que el post entienda el formato json
+import cors from "cors";
 import express from "express";
 import fs from 'fs'; //
-import bodyParser from "body-parser"; //para que el post entienda el formato json
 
 const app = express();
 app.use(bodyParser.json())
+app.use(cors({origin:"http://localhost:3000"}));
 
 const readData = () => {
     try{
@@ -90,7 +92,7 @@ app.put("/comentarios/:id", (req, res) => {
 });
 
 
-// DELETE 
+// DELETE
 
 app.delete("/comentarios/:id", (req, res) => {
     const data = readData();
@@ -115,6 +117,6 @@ app.get("/", (req, res) => {
     res.send("Esto es una api rest para mi backend");
 });
 
-app.listen(3000, () => {
-    console.log('server listening on port 3000');
+app.listen(4001, () => {
+    console.log('server listening on port 4001');
 });

@@ -1,72 +1,61 @@
 import React from 'react';
 import Cabecera from '../../Components/Home/Cabecera/Cabecera';
 import Footer from '../../Components/Home/Footer/Footer';
-import Navbar from '../../Components/Comun/Navbar/Navbar';
+import { Link } from 'react-router-dom';
+import './Servicios.css';
 
 const Servicios = () => {
   return (
-    <div>
+    <div className="servicios-page">
       <Cabecera />
-      <Navbar />
 
-      <div className="bg-blue-900 text-white">
-        <div className="NuestrosServicios">
-          <h1>Nuestros Servicios</h1>
-        </div>
+      <div className="header-background-servicios">
+        <h2 className="header-title">Servicios: apoyo para la recuperación</h2>
       </div>
 
-      <div className="bg-white py-8">
-        <hr />
+      <div className="content-container">
+        <h3>Nuestros Servicios</h3>
+        <p className="intro-text">
+          Grupo 24 Horas Alcohólicos Anónimos Noroeste es una asociación sin ánimo de lucro fundada en junio de 2017, con CIF: G-70530688, e inscrita en el Registro Nacional de Asociaciones. Como entidad de referencia en el consejo asesor de Galicia y del Sergas, operamos en las áreas de A Coruña – Cee y Santiago de Compostela – Barbanza. Desde 2022, somos reconocidos de interés público, reflejando nuestro compromiso y dedicación en el ámbito internacional.
 
-        <div className="mx-auto max-w-4xl px-4">
-          <div className="uno mb-8">
-            <h2 className="text-xl font-semibold text-blue-900">El único fin de esta asociación es ayudar a personas con problemas de alcoholismo.</h2>
-            <div className="flex justify-between mt-4">
-              <div className="boton1">
-                <a href="Telefono" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Teléfono</a>
-              </div>
-              <div className="boton2">
-                <a href="Correo Electronico" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Correo Electrónico</a>
-              </div>
+          Nuestros servicios son completamente gratuitos, firmemente creyendo que el nivel adquisitivo no debe ser una barrera para tratar un problema de salud tan serio como el alcoholismo. Aunque nuestra actuación es principalmente municipal y autonómica, nuestra denominación internacional subraya nuestro alcance y compromiso global.
+
+          En A Coruña, ofrecemos asistencia las 24 horas para aquellos que enfrentan problemas de alcoholismo, ya sea que deseen dejar de beber o necesiten apoyo para evitar recaídas en momentos difíciles. Nuestro único propósito es proporcionar ayuda efectiva durante el proceso de desintoxicación y ofrecer un apoyo continuo para prevenir recaídas, guiados por valores de servicio al cliente, rigor profesional y una constante apuesta por la innovación y el talento.
+
+          Grupo 24 Horas Alcohólicos Anónimos Noroeste es más que una asociación; es un refugio seguro para aquellos que buscan un camino hacia la recuperación y una vida libre del alcohol.
+        </p>
+
+        <div className="card-container">
+          <Link to="/servicios/ev-inicial" className="zoom-container">
+            <div className="zoom-background" style={{ backgroundImage: "url('https://aa24horas.es/wp-content/uploads/2024/05/young-girl-talking-therapist-side-view.webp')" }}></div>
+            <div className="zoom-text">
+              <h3>Evaluacion Inicial</h3>
+              <p>Cada ingreso implica una evaluación colaborativa para determinar el nivel de dependencia del alcohol y crear un plan personalizado. Se priorizan prescripciones médicas existentes. Los residentes en riesgo de exclusión social reciben prioridad y un plan de desintoxicación seguro.</p>
             </div>
-          </div>
-
-          <hr />
-
-          <div className="dos flex flex-col md:flex-row justify-between items-center mb-8">
-            <h3 className="md:w-1/2 text-lg font-semibold text-blue-900">
-              La situación económica para dejar de
-              <br />
-              beber no puede ser un problema, por eso
-              <br />
-              nuestros servicios son gratuitos.
-            </h3>
-            <img src="../Imagenes/servicios.png" alt="Servicios Gratuitos" className="md:w-1/2 mt-4 md:mt-0" />
-          </div>
-
-          <hr />
-
-          <div className="tres flex flex-col md:flex-row justify-between items-center mb-8">
-            <img src="../Imagenes/acogida.png" alt="Acogida gratuita" className="md:w-1/2 mb-4 md:mb-0" />
-            <h3 className="md:w-1/2 text-lg font-semibold text-blue-900">
-              Posibilidad de residir en nuestras
-              <br />
-              instalaciones, para personas no
-              <br />
-              residentes de la ciudad de A Coruña
-              <br />
-              o para personas sin recursos.
-            </h3>
-          </div>
-
-          <hr />
-
-          <div className="cuatro flex flex-col md:flex-row justify-between items-center mb-8">
-            <h3 className="md:w-1/2 text-lg font-semibold text-blue-900">
-              Atención las 24h todos los días del año
-            </h3>
-            <img src="../Imagenes/horas.png" alt="24h" className="md:w-1/2" />
-          </div>
+          </Link>
+          <Link to="/servicios/concienciacion-problema" className="zoom-container">
+            <div className="zoom-background" style={{ backgroundImage: "url('https://aa24horas.es/wp-content/uploads/2024/05/people-meeting-seminar-office-concept-scaled-1.webp')" }}></div>
+            <div className="zoom-text">
+              <h3>Concienciacion del Problema</h3>
+              <p>Después de la desintoxicación, iniciamos una fase de concienciación con sesiones individuales y grupales, charlas y talleres. Nuestro objetivo es abordar las causas de la adicción y desarrollar estrategias para la recuperación y la prevención de recaídas.</p>
+            </div>
+          </Link>
+          <Link to="/servicios/desintoxicacion-segura" className="zoom-container">
+            <div className="zoom-background" style={{ backgroundImage: "url('https://aa24horas.es/wp-content/uploads/2024/05/first-step-recovery-is-talking-about-problem-scaled-1.webp')" }}></div>
+            <div className="zoom-text">
+              <h3>Desintoxicación Segura</h3>
+              <p>Aquellos que necesiten desintoxicación seguirán un proceso supervisado por servicios de salud, médicos de familia y unidades especializadas. Grupo Noroeste proporciona supervisión las 24 horas durante este proceso para garantizar la seguridad y el bienestar de los usuarios.</p>
+            </div>
+          </Link>
+          <Link to="/servicios/residencia-puntual" className="zoom-container">
+            <div className="zoom-background" style={{ backgroundImage: "url('https://aa24horas.es/wp-content/uploads/2024/04/concrete-structure-city-scaled.jpg')" }}></div>
+            <div className="zoom-text">
+              <h3>
+                Residencia Puntual
+              </h3>
+              <p>Disponemos de una residencia para quienes no pueden desplazarse diariamente. Ofrecemos un entorno seguro y libre de alcohol, con apoyo las 24 horas y capacidad para 25 personas. Todos nuestros servicios son gratuitos y accesibles a quienes deseen dejar de beber.</p>
+            </div>
+          </Link>
         </div>
       </div>
 

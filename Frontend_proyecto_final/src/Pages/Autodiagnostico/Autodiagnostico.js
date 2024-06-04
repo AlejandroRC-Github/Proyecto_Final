@@ -1,6 +1,5 @@
 import React from 'react';
 import Autodiagnostico from '../../Components/Autodiagnostico/Autodiagnostico';
-import Navbar from '../../Components/Comun/Navbar/Navbar';
 import Cabecera from '../../Components/Home/Cabecera/Cabecera';
 import Footer from '../../Components/Home/Footer/Footer';
 import './Autodiagnostico.css'; // Archivo CSS para estilos específicos de esta página
