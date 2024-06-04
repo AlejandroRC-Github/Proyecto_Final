@@ -5,6 +5,18 @@
 [![Fecha del Proyecto](https://img.shields.io/badge/Fecha-Proyecto%20Inicio%3A%20May%202022-blueviolet)](https://tu_proyecto.com)
 [![Licencia](https://img.shields.io/badge/Licencia-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+## Índice
+
+## [Descripción](#descripción)
+
+## [Tecnologías Utilizadas](#tecnologías-utilizadas)
+
+## [Capturas de Pantalla y carácteristicas de la aplicación](#capturas-de-pantalla-y-carácteristicas-de-la-aplicación)
+
+## [Descripción técnica](#descripción-técnica)
+
+## [Instalación  y utilización](#instalación-y-utilización)
+
 ## Descripción
 
 Este proyecto tiene como objetivo proporcionar un recurso para aquellos que luchan contra el alcoholismo y buscan apoyo en su camino hacia la sobriedad.
@@ -61,7 +73,7 @@ imagen.
 
 - ...
 
-## Instalación  y utilización
+## Instalación y utilización
 1. Clona el repositorio: `git clone https://github.com/tu_usuario/tu_proyecto.git`
 2. Abre tu terminal buscando en el buscador de la barra de herramientas "cmd".
 3. Una vez dentro, posicionate en el directorio en el que has clonado el proyecto.
