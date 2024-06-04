@@ -7,13 +7,13 @@
 
 ## Índice
 
-## [Descripción](#descripción)
+## [Descripción](#descripción-1)
 
-## [Tecnologías Utilizadas](#tecnologías-utilizadas)
+## [Descripción técnica](#descripción-técnica-1)
 
-## [Capturas de Pantalla y carácteristicas de la aplicación](#capturas-de-pantalla-y-carácteristicas-de-la-aplicación)
+## [Capturas de Pantalla y características de la aplicación](#capturas-de-pantalla-y-carácteristicas-de-la-aplicación)
 
-## [Descripción técnica](#descripción-técnica)
+## [Tecnologías Utilizadas](#tecnologías-utilizadas-1)
 
 ## [Instalación  y utilización](#instalación-y-utilización)
 
