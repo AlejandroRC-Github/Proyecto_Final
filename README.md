@@ -42,18 +42,36 @@ Este proyecto tiene como objetivo informar y dar a conocer un entorno seguro, ac
 Estructura de Páginas:
 
 Home: Cabecera, menú, imagen de fondo, texto de objetivos, servicios, reseñas y footer.
+
 Sobre Nosotros: Cabecera, menú, descripción, acordeón informativo y footer.
+
 Servicios: Cabecera, menú, descripción, tarjetas de servicios con animación y footer.
+
 Autodiagnóstico: Cabecera, menú, formulario de autodiagnóstico y footer.
+
 Contacto: Cabecera, menú, formulario de contacto y métodos de contacto.
 
 ## Capturas de Pantalla y carácteristicas de la aplicación
 
+Boceto Inicial:
+
+- Pantalla de carga.
+
+- 5 páginas diferenciadas
+
+- Subpáginas de Servicios.
+
+![Figma Proyecto AA](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/40ce2725-9caa-48af-a848-e731f84bc8b8)
+
+
+
 Amimación de entrada a la página: Esta animación sirve como pantalla de carga antes de visualizar el home.
+
 
 ![image](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/596551d7-c251-4aff-8ca1-8ea1a1f49f2e)
 
 Home: En el home podemos ver en la parte izquierda una cabecera con el logotipo y el nombre al lado y en la derecha un menú. Más tarde nos encontramos con una imagen de fondo que contiene un texto, el objetivo de la asociacion, sus servicios y finalmente el apartado de reseñas que dejan los usuarios al visita la pagina y un footer.
+
 
 ![image](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/49f2b4bd-5b8b-4a57-acfc-867664a6b934)
 
@@ -66,6 +84,7 @@ Home: En el home podemos ver en la parte izquierda una cabecera con el logotipo 
 
 Sobre nosotros: En Sobre nosotros podemos ver en la parte izquierda una cabecera con el logotipo y el nombre al lado y en la derecha un menú. Más tarde nos encontramos con un titulo descriptivo sobre el tema del que trata la página con un texto explicativo debajo. Finalmente un acordeon con informacion sobre la asociacion y un footer.
 
+
 ![image](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/79d75e06-feb1-4f9b-91ad-a7eba307780b)
 
 ![image](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/12da2f64-6d6d-4c98-82b9-796d11ef047d)
@@ -74,6 +93,7 @@ Sobre nosotros: En Sobre nosotros podemos ver en la parte izquierda una cabecera
 
 
 Servicios:En Servicios podemos ver en la parte izquierda una cabecera con el logotipo y el nombre al lado y en la derecha un menú. Más tarde nos encontramos con un titulo descriptivo sobre el tema del que trata la página con un texto explicativo debajo. Mas tarde nos encontramos con una seccio que son los servicios, estos estan en formato tarjeta y contienen una animacion al hacer hover. Puedes clickar en ellos y te llevarán a otra página con una descripcion del servicio junto con una imagen que servirá de referencia visual y dará imagen al servicio. Finalmente un footer.
+
 
 ![image](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/0ff05339-af9e-4aea-8c42-c9eadcb53606)
 
@@ -86,11 +106,13 @@ Servicios:En Servicios podemos ver en la parte izquierda una cabecera con el log
 
 servicios/ev-inicial: Página dentro de la página de servicios, muestra con detalle el servicio que ha sido seleccionado previamente con una descripcion del mismo. En este caso "Evaluacion inicial"
 
+
 ![image](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/72775324-6773-4c80-9693-01eabf55ca69)
 
 ![image](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/8db2fa20-2e75-43ec-9e0c-76adc8b89efd)
 
 servicios/concienciacion-problema: Página dentro de la página de servicios, muestra con detalle el servicio que ha sido seleccionado previamente con una descripcion del mismo. En este caso "Concienciación del problema"
+
 
 ![image](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/7ec74f75-a8d5-479a-9e0e-1c1a919f8e89)
 
@@ -98,17 +120,20 @@ servicios/concienciacion-problema: Página dentro de la página de servicios, mu
 
 servicios/desintoxicacion-segura: Página dentro de la página de servicios, muestra con detalle el servicio que ha sido seleccionado previamente con una descripcion del mismo. En este caso "Desintoxicación Segura"
 
+
 ![image](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/af750c98-9d37-4292-ad48-85d4586ccf13)
 
 ![image](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/8db2fa20-2e75-43ec-9e0c-76adc8b89efd)
 
 servicios/residencia-puntual: Página dentro de la página de servicios, muestra con detalle el servicio que ha sido seleccionado previamente con una descripcion del mismo. En este caso "Residencia Puntual"
 
+
 ![image](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/64adec6a-db81-4dde-8412-d6a48e4bdd61)
 
 ![image](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/8db2fa20-2e75-43ec-9e0c-76adc8b89efd)
 
 Autodiagnóstico:En Autodiagnóstico podemos ver en la parte izquierda una cabecera con el logotipo y el nombre al lado y en la derecha un menú. Más tarde nos encontramos con un titulo descriptivo sobre el tema del que trata la página con un texto explicativo debajo. Luego tendremos un autodiagnostico el cual te obliga a responder 21 preguntas para saber si tienes algun problema con el alcohol, dependiendo de las respuestas se mostrará un mensaje personalizado. finalmente un footer.
+
 
 ![image](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/9e8a9765-ebe1-467f-bb89-2722f1aa483b)
 
@@ -119,6 +144,7 @@ Autodiagnóstico:En Autodiagnóstico podemos ver en la parte izquierda una cabec
 
 
 Contacto:En Contacto podemos ver en la parte izquierda una cabecera con el logotipo y el nombre al lado y en la derecha un menú. Más tarde nos encontramos con un titulo descriptivo sobre el tema del que trata la página con un texto explicativo debajo. Luego nos encontramos con un formulario para consultar cualquier posible duda y a su lado los metodos de contacto de la asociacion. Finalmente un footer.
+
 
 ![image](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/d348c554-a055-40bc-812e-c957af1821d4)
 
@@ -164,9 +190,6 @@ Backend:
 8. Para iniciar el frontend: posicionate en frontend-proyectoFinal y, dentro de este, posicionate en src.
 9. Una vez dentro de src, tendras que iniciarlo con "npm run start"
 10. Una vez realizado todo esto, ya podrás disfrutar de la página web.
-
-## Uso
-Instrucciones sobre cómo utilizar el proyecto proximamente...
 
 ## Personas-Desarrolladores del Proyecto
 Alejandro Rodríguez Castro
