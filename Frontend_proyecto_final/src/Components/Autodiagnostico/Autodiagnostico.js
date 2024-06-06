@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
-import Cabecera from '../../Components/Home/Cabecera/Cabecera';
-import Footer from '../../Components/Home/Footer/Footer';
-import Navbar from '../../Components/Comun/Navbar/Navbar';
+import Cabecera from '../../Components/Home/Cabecera/Cabecera'; 
+import Footer from '../../Components/Home/Footer/Footer'; 
 import './Autodiagnostico.css';
 
-const Autodiagnostico = () => {
-  const [paginaActual, setPaginaActual] = useState(1);
-  const [respuestas, setRespuestas] = useState(Array(21).fill(''));
-  const [mensaje, setMensaje] = useState('');
 
+const Autodiagnostico = () => {
+  // Define el estado de la página actual, las respuestas y el mensaje utilizando el hook useState.
+  const [paginaActual, setPaginaActual] = useState(1); // Estado para controlar la página actual del autodiagnóstico.
+  const [respuestas, setRespuestas] = useState(Array(21).fill('')); // Estado para almacenar las respuestas del usuario.
+  const [mensaje, setMensaje] = useState(''); // Estado para almacenar el mensaje de diagnóstico.
+
+  // Define un array de preguntas relacionadas con el alcoholismo.
   const preguntas = [
     "¿Alguien de tu familia o cercano a ti te ha llamado la atención porque bebes?",
     "¿Buscas disculpas para tratar de justificar tu forma de beber?",
@@ -33,33 +35,42 @@ const Autodiagnostico = () => {
     "¿Alguna vez bebes a escondidas?"
   ];
 
+  // Función para manejar el cambio de respuesta a una pregunta.
   const handleRespuestaChange = (index, value) => {
-    const nuevasRespuestas = [...respuestas];
-    nuevasRespuestas[index] = value;
-    setRespuestas(nuevasRespuestas);
+    const nuevasRespuestas = [...respuestas]; // Crea una copia del array de respuestas.
+    nuevasRespuestas[index] = value; // Actualiza la respuesta en la posición index.
+    setRespuestas(nuevasRespuestas); // Actualiza el estado de respuestas.
   };
 
+  // Función para mostrar la siguiente pregunta del autodiagnóstico.
   const mostrarSiguientePregunta = () => {
+    // Verifica si todas las preguntas anteriores han sido respondidas.
     const todasRespondidas = respuestas.slice(0, paginaActual).every((respuesta) => respuesta !== '');
     if (todasRespondidas) {
+      // Si todas las preguntas anteriores han sido respondidas, muestra la siguiente pregunta.
       if (paginaActual < preguntas.length) {
-        setPaginaActual(paginaActual + 1);
+        setPaginaActual(paginaActual + 1); // Actualiza la página actual para mostrar la siguiente pregunta.
       } else {
-        obtenerRespuestas();
+        obtenerRespuestas(); // Si se han respondido todas las preguntas, obtén el diagnóstico final.
       }
     } else {
+      // Si alguna pregunta no ha sido respondida, muestra una alerta.
       alert('Por favor, responde a la pregunta actual antes de continuar.');
     }
   };
 
+  // Función para mostrar la pregunta anterior del autodiagnóstico.
   const mostrarPreguntaAnterior = () => {
-    setPaginaActual(paginaActual - 1);
+    setPaginaActual(paginaActual - 1); // Actualiza la página actual para mostrar la pregunta anterior.
   };
 
+  // Función para obtener el diagnóstico final según las respuestas del usuario.
   const obtenerRespuestas = () => {
+    // Cuenta la cantidad de respuestas "sí".
     const contadorSi = respuestas.filter((respuesta) => respuesta === 'si').length;
     let mensaje = "";
 
+    // Determina el mensaje de diagnóstico según la cantidad de respuestas "sí".
     if (contadorSi === 1) {
       mensaje = "Entre tus respuestas se encuentra tan solo un sí, lo más seguro es que no tengas problemas con tu manera de beber.";
     } else if (contadorSi === 2) {
@@ -70,31 +81,40 @@ const Autodiagnostico = () => {
       mensaje = "No tienes problemas graves relacionados con el alcohol.";
     }
 
-    setMensaje(mensaje);
+    setMensaje(mensaje); // Actualiza el estado del mensaje de diagnóstico.
   };
 
+  // Devuelve el JSX que representa el autodiagnóstico.
   return (
     <div>
-      <Cabecera />
+      <Cabecera /> 
+      {/* Muestra el título del autodiagnóstico. */}
       <div className="hero">
         <div className="hero-text">
           Autodiagnóstico: ¿Tienes problemas con el Alcohol?
         </div>
       </div>
       <div className="content-container">
+        {/* Muestra información sobre cómo funciona el autodiagnóstico. */}
         <div className="info-section">
           <h3>¿Cómo funciona este Autodiagnostico?</h3>
           <p>
-            Este formulario ha sido creado para que una persona que tenga dudas acerca de si puede tener o no algún problema relacionado con el alcoholismo pueda saberlo rápidamente y así pueda acudir a nuestro centro lo antes posible.<br /><br />
-            Cabe tener en cuenta que toda la información a la hora de contestar el formulario no será guardada, es decir, es completamente anónimo.<br /><br />
-            Todas las preguntas que te encontrarás en el autodiagnóstico son síntomas relacionados con el alcoholismo y debes tomarte en serio la respuesta del mismo ya que puede ser un gran indicativo de que debes pedir ayuda, así que.<br /><br />
-            ¿Por qué no intentas responder con sinceridad para ti mismo el siguiente autodiagnóstico?
+          Este formulario ha sido creado para que una persona que tenga dudas acerca de si puede tener o no algun problema relacionado con el alcoholismo pueda saberlo rapidamente y asi pueda acudir a nuestro centro lo antes posible.
+
+          Cabe tener en cuenta que toda la información a la hora de contestar el formulario no será guardada, es decir, es completamente anónimo. 
+
+          Todas las preguntas que te encontraras en el autodiagnostico son sintomas relacionados con el alcoholismo y debes tomarte enserio la respuesta del mismo ya que puede ser un gran indicativo de que debes pedir ayuda, asi que.
+
+          ¿Por qué no intentas responder con sinceridad para ti mismo el siguiente autodiagnostico?
           </p>
         </div>
+        {/* Muestra el formulario del autodiagnóstico. */}
         <div className="form-section">
           <div className="autodiagnostico-container">
             <div className="autodiagnostico-form">
+              {/* Muestra la pregunta actual del autodiagnóstico. */}
               <label htmlFor={`pregunta${paginaActual}`}>{paginaActual}. {preguntas[paginaActual - 1]}</label>
+              {/* Muestra un select para que el usuario pueda seleccionar una respuesta. */}
               <select
                 id={`pregunta${paginaActual}`}
                 value={respuestas[paginaActual - 1]}
@@ -106,6 +126,7 @@ const Autodiagnostico = () => {
               </select>
             </div>
             <div className="button-container">
+              {/* Muestra un botón para retroceder a la pregunta anterior. */}
               {paginaActual > 1 && (
                 <button 
                   className="prev-button" 
@@ -114,6 +135,7 @@ const Autodiagnostico = () => {
                   Volver
                 </button>
               )}
+              {/* Muestra un botón para avanzar a la siguiente pregunta o enviar el autodiagnóstico. */}
               <button
                 className="next-button"
                 onClick={mostrarSiguientePregunta}
@@ -121,13 +143,23 @@ const Autodiagnostico = () => {
                 {paginaActual < preguntas.length ? 'Siguiente' : 'Enviar'}
               </button>
             </div>
+            {/* Muestra el mensaje de diagnóstico final. */}
             {mensaje && <div className="mensaje">{mensaje}</div>}
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer /> 
     </div>
   );
 };
 
+
 export default Autodiagnostico;
+
+
+
+
+
+
+
+

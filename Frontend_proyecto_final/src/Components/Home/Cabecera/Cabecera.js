@@ -1,8 +1,9 @@
 import React from 'react';
-import './Cabecera.css';
-import Navbar from '../../Comun/Navbar/Navbar';
+import './Cabecera.css'; 
+import Navbar from '../../Comun/Navbar/Navbar'; 
 
 const Cabecera = () => (
+  // Devuelve el JSX que representa la cabecera.
   <header>
     <div className="container">
       <div className="logo-nombre-container">
@@ -18,7 +19,7 @@ const Cabecera = () => (
       </div>
       <div className="barra-vertical"></div>
       <div className="ImagenesTopRight">
-        <Navbar />
+        <Navbar /> {/* Inserta el componente de la barra de navegación. */}
       </div>
     </div>
   </header>
