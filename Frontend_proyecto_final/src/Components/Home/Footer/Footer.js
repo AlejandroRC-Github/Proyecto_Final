@@ -1,8 +1,9 @@
 import React from 'react';
-import './Footer.css';
-import Navbar from '../../Comun/Navbar/Navbar';
+import './Footer.css'; 
+import Navbar from '../../Comun/Navbar/Navbar'; 
 
 const Footer = () => {
+  // Devuelve el JSX que representa el pie de página.
   return (
     <footer className="footer">
       <div className="footer-content">
@@ -11,8 +12,9 @@ const Footer = () => {
           <p className="footer-text">GRUPO 24 HORAS ALCOHOLICOS ANÓNIMOS NOROESTE</p>
         </div>
         <div className="footer-section">
-          <Navbar/>
+          <Navbar/> {/* Inserta el componente de la barra de navegación */}
         </div>
+        {/* Sección del mapa */}
         <div className="footer-section">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2900.9538767830095!2d-8.410160723276762!3d43.35707537111768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e7c90005af621%3A0x5b61a8514e1c3a17!2sC.%20Pan%20de%20Soraluce%2C%202%2C%2015007%20A%20Coru%C3%B1a%2C%20La%20Coru%C3%B1a!5e0!3m2!1ses!2ses!4v1708276801176!5m2!1ses!2ses"

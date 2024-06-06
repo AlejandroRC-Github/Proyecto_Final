@@ -1,1 +1,70 @@
-{"Imagenes":[{"id":1,"name":"LogoInicial","ruta":""},{"id":2,"name":"ImagenHome","ruta":"/ruta/a/la/imagen.jpg"},{"id":3,"name":"Sergas","ruta":"/ruta/a/la/imagen.jpg"},{"id":4,"name":"BancoDeAlimentos","ruta":"/ruta/a/la/imagen.jpg"},{"id":5,"name":"MinisterioDelInterior","ruta":"/ruta/a/la/imagen.jpg"},{"id":6,"name":"SergasAlargado","ruta":"/ruta/a/la/imagen.jpg"},{"id":7,"name":"ApretonDeManos","ruta":"/ruta/a/la/imagen.jpg"},{"id":8,"name":"ResidenciaPuntual","ruta":"/ruta/a/la/imagen.jpg"},{"id":9,"name":"DesintoxicacionSegura","ruta":"/ruta/a/la/imagen.jpg"},{"id":10,"name":"CharlasDeConcienciacionYPrevencion","ruta":"/ruta/a/la/imagen.jpg"},{"id":11,"name":"AmbienteAcogedor","ruta":"/ruta/a/la/imagen.jpg"}],"Comentarios":[{"id":1,"name":"Carlos","ruta":"Hola buenas noches"},{"id":2,"name":"Ainara","ruta":"Hola buenos dias"},{"id":3,"name":"Alejandro","descripcion":"Hola buenas tardes"},{"id":4,"name":"Victor","ruta":"Hola buenos mediodias"},{"id":5,"name":"Elias","description":"Estoy en un cumple"},{"id":6,"name":"Anso","description":"Buenos DelloyDays"},{"id":7,"name":"Alejandro Rodriguez ","description":"Lo recomiendo"},{"id":8,"name":"Antonio ","description":"No lo volveré a tocar gracias a esta pagina."}]}
+{
+    "Comentarios": [
+        {
+            "id": 1,
+            "name": "Anónimo",
+            "description": "Hola buenas noches",
+            "rating": 4
+        },
+        {
+            "id": 2,
+            "name": "Anónimo",
+            "description": "Hola buenos dias",
+            "rating": 4
+        },
+        {
+            "id": 3,
+            "name": "Anónimo",
+            "description": "Hola buenas tardes",
+            "rating": 5
+        },
+        {
+            "id": 4,
+            "name": "Anónimo",
+            "description": "Hola buenos mediodias",
+            "rating": 5
+        },
+        {
+            "id": 5,
+            "name": "Anónimo",
+            "description": "Estoy en un cumple",
+            "rating": 3
+        },
+        {
+            "id": 6,
+            "name": "Anónimo",
+            "description": "Buenos DelloyDays",
+            "rating": 5
+        },
+        {
+            "id": 7,
+            "name": "Anónimo",
+            "description": "Lo recomiendo",
+            "rating": 4
+        },
+        {
+            "id": 8,
+            "name": "Antonio ",
+            "description": "No lo volveré a tocar gracias a esta pagina.",
+            "rating": 3
+        },
+        {
+            "id": 9,
+            "name": "Anónimo",
+            "description": "Soy Elías, tengo serios problemas y me gustaría conseguir ayuda",
+            "rating": 5
+        },
+        {
+            "id": 10,
+            "name": "Anónimo",
+            "description": "Lo recomiendo, me ha ayudado mucho",
+            "rating": 5
+        },
+        {
+            "id": 11,
+            "name": "Anónimo",
+            "description": "Genial servicio, ya no tengo problemas!!",
+            "rating": 5
+        }
+    ]
+}
