@@ -42,13 +42,13 @@ const Contacto = () => (
           {/* Información de contacto por email. */}
           <div className="info-item">
             <h3>Email:</h3>
-            <a href="mailto:vitoesmoris@gmail.com">alcoholicosenrecuperacion@gmail.com</a>
+            <a href="mailto:ejemplo@gmail.com">alcoholicosenrecuperacion@gmail.com</a>
           </div>
           
           {/* Información de contacto por teléfono. */}
           <div className="info-item">
             <h3>Teléfono:</h3>
-            <a href="tel:+34 881309391"></a>
+            <a href="tel:+34 123456789">123456789</a>
           </div>
           
           {/* Dirección de la asociación. */}

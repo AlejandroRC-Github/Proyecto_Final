@@ -5,6 +5,7 @@ import Footer from '../../Components/Home/Footer/Footer'; // Importamos el compo
 import './Home.css'; // Importamos los estilos específicos de esta página.
 import 'slick-carousel/slick/slick.css'; // Importamos los estilos del carrusel.
 import 'slick-carousel/slick/slick-theme.css'; // Importamos los estilos del tema del carrusel.
+import { URL_BACKEND } from '../../config';
 
 // Componente funcional para mostrar una valoración en forma de estrellas.
 const StarRating = ({ rating }) => {
@@ -41,7 +42,7 @@ const Home = () => {
   // useEffect se utiliza para realizar efectos secundarios en componentes funcionales, como cargar datos desde una API.
   useEffect(() => {
     // Hacemos una solicitud para obtener los comentarios desde la API REST cuando se carga la página.
-    fetch('http://localhost:4001/comentarios')
+    fetch(`${URL_BACKEND}/comentarios`)
       .then((response) => response.json()) // Convertimos la respuesta en formato JSON.
       .then((data) => {
         // Ajustamos los comentarios recibidos de la API.
@@ -67,7 +68,7 @@ const Home = () => {
   const handleSubmit = (e) => {
     e.preventDefault(); // Evitamos que el formulario se envíe de forma predeterminada.
     // Realizamos una solicitud POST a la API REST para agregar un nuevo comentario.
-    fetch('http://localhost:4001/comentarios', {
+    fetch(`${URL_BACKEND}/comentarios`, {
       method: 'POST', // Especificamos el método HTTP como POST.
       headers: {
         'Content-Type': 'application/json', // Especificamos el tipo de contenido como JSON.
