@@ -11,7 +11,7 @@ const Footer = () => {
           <img src="https://aa24horas.es/wp-content/uploads/2024/04/cropped-75060af3b70ef08d3aab8a0c9780b0fc-removebg-preview.webp" alt="Logo" className="footer-logo" />
           <p className="footer-text">GRUPO 24 HORAS ALCOHOLICOS ANÓNIMOS NOROESTE</p>
         </div>
-        <div className="footer-section">
+        <div className="footer-section footer-navbar">
           <Navbar/> {/* Inserta el componente de la barra de navegación */}
         </div>
         {/* Sección del mapa */}

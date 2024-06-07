@@ -31,6 +31,7 @@ p {
   align-items: center;
   color: white;
   font-size: 2rem;
+  margin-bottom: 200px;
 }
 
 .hero-text {
@@ -91,7 +92,7 @@ p {
 }
 
 .prev-button, .next-button {
-  background-color: #1a202c;
+  background-color: #1D97CB;
   color: #ffffff;
   border: none;
   padding: 10px 20px;
@@ -102,7 +103,7 @@ p {
 }
 
 .prev-button:hover, .next-button:hover {
-  background-color: #2d3748;
+  background-color: #1979a3;
 }
 
 .mensaje {

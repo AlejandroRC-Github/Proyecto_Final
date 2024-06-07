@@ -8,7 +8,7 @@ const app = express();
 
 // Middlewares
 app.use(bodyParser.json()); // Middleware para analizar el cuerpo de las solicitudes en formato JSON
-app.use(cors({ origin: "http://localhost:3000" })); // Middleware para permitir solicitudes desde http://localhost:3000
+app.use(cors({ origin: "http://localhost:3002" })); // Middleware para permitir solicitudes desde http://localhost:3000
 
 // Funciones para leer y escribir datos en el archivo JSON
 const readData = () => {

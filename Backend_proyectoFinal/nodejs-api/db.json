@@ -65,6 +65,12 @@
             "name": "Anónimo",
             "description": "Genial servicio, ya no tengo problemas!!",
             "rating": 5
+        },
+        {
+            "id": 12,
+            "name": "Anónimo",
+            "description": "prueba2",
+            "rating": "5"
         }
     ]
 }

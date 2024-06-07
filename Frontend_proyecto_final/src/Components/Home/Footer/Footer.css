@@ -11,8 +11,9 @@
 
 .footer-content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 20px;
 }
 
@@ -43,12 +44,6 @@
   margin: 10px 0;
 }
 
-.footer-section {
-  color: #F7FAFC;
-  text-decoration: none;
-}
-
-
 .footer-map {
   border: 0;
   width: 100%;
@@ -64,4 +59,10 @@
 .social-icon {
   width: 30px;
   height: 30px;
+}
+
+.footer-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
