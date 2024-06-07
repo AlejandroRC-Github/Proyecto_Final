@@ -63,6 +63,11 @@ Boceto Inicial:
 
 ![Figma Proyecto AA](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/40ce2725-9caa-48af-a848-e731f84bc8b8)
 
+Pert:
+
+![image](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/20e6a776-8e3a-4e32-b1fe-4b76ac732648)
+
+
 Gant:
 
 ![image](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/a14023bc-0246-4388-8896-06e6bff445e9)
