@@ -63,6 +63,9 @@ Boceto Inicial:
 
 ![Figma Proyecto AA](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/40ce2725-9caa-48af-a848-e731f84bc8b8)
 
+Gant:
+
+![image](https://github.com/AlejandroRC-Github/Proyecto_Final/assets/145007287/a14023bc-0246-4388-8896-06e6bff445e9)
 
 
 Amimación de entrada a la página: Esta animación sirve como pantalla de carga antes de visualizar el home.
